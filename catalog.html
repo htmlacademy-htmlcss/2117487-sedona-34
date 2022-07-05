@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
+    <link rel="stylesheet" href="styles/styles.css">
     <meta charset="utf-8">
     <title>Каталог</title>
   </head>
@@ -28,11 +29,12 @@
         <a class="navigation-link" href="#"><span class="visually-hidden">Избранное:12</span></a>
         </li>
         <li class="navigation-item">
-        <a class="navigation-link" href="catalog.html"><span class="visually-hidden">Хочу сюда!</span></a>
+        <button class="button navigation-button" href="catalog.html"><span class="visually-hidden">Хочу сюда!</span></button>
         </li>
         </ul>
         </nav>
       </header>
+      <div class="filter">
       <main class="main-inner">
         <header class="inner-header">
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
@@ -106,6 +108,7 @@
         </form>
        </section>
       </fieldset>
+    </div>
       <section class="catalog-search-results">
        <h2 class="result-title">НАЙДЕНО ГОСТИНИЦ:38</h2>
         <select class="select-control" aria-label="Сортировка">
@@ -116,11 +119,11 @@
 
         <ul class="view-switcher-list">
         <li class="view-item">
-        <a href="#" class="button view-button button--active">
+        <a href="#" class="button view-button--active">
         <span class="visually-hidden">Показать карточки</span>
         </a>
         </li>
-        <li class="view-item">
+        <li class="view-item"> 
         <a href="#" class="button view-button button">
         <span class="visually-hidden">Показать ленту</span>
         </a>
@@ -132,7 +135,6 @@
         </li>
     </section>
             <section class="hotel-list">
-
             <div class="hotel-item">
             <img class="hotel-image" src="images/hotel-1.jpg" width="300" height="211" alt="Amara Resort & Spa">
             <h3 class="hotel-name">Amara Resort & Spa</h3>
@@ -150,7 +152,7 @@
              <span class="hotel-type">Гостиница</span>
              <span class="hotel-price">От 5000 ₽</span>
              <a class="hotel-about button" href="#">ПОДРОБНЕЕ</a>
-             <button type="button" class="hotel-favorites button" href="#">В ИЗБРАННОМ</button>
+             <button type="button" class="hotel-favorites-button--active" href="#">В ИЗБРАННОМ</button>
              <p class="visually-hidden">4 звезды</p>
              <p class="product-card">РЕЙТИНГ: 9,2</p>
              </div>
@@ -206,7 +208,7 @@
     </ul>
 </section>
 
-<section class="newsletter">
+<section class="newsletter-catalog">
     <h2 class="newsletter-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
     <p class="newsletter-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
     <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
