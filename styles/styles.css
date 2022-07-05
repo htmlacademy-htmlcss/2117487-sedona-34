@@ -106,8 +106,6 @@ body {
 }
 
 .search-description {
-    font-size: 22px;
-    line-height: 26px;
     color: #333333;
 }
 
@@ -137,10 +135,6 @@ body {
     font-weight: 700;
 }
 
-.newsletter-description {
-    font-size: 22px;
-    line-height: 26px;
-}
 
 .newsletter-form {
     font-size: 18px;
@@ -183,7 +177,6 @@ body {
 
 .catalog-filter-group {
     font-size: 20px;
-    line-height: 26px;
     font-weight: 700;
 }
 
